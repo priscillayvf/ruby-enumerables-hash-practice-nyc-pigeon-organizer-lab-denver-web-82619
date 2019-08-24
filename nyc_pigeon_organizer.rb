@@ -9,7 +9,7 @@ def nyc_pigeon_organizer (raw_data)
     end 
   end 
   x = final.keys
-  data[:color].each do |bird_color, name|
+  raw_data[:color].each do |bird_color, name|
     name.each do |bird_name|
       x.each do |item|
         if bird_name === item
@@ -18,7 +18,7 @@ def nyc_pigeon_organizer (raw_data)
       end 
     end 
   end 
-  data[:gender].each do |gender, type|
+  raw_data[:gender].each do |gender, type|
     type.each do |bird_name|
       x.each do |item|
         if bird_name === item
@@ -27,7 +27,7 @@ def nyc_pigeon_organizer (raw_data)
       end 
     end 
   end 
-  data[:lives].each do |location, name|
+  raw_data[:lives].each do |location, name|
     name.each do |bird_name|
       x.each do |item|
         if bird_name === item
