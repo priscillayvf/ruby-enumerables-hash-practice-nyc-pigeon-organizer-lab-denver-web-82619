@@ -40,7 +40,6 @@ def nyc_pigeon_organizer (raw_data)
   return final 
 end 
 
-nyc_pigeon_organizer(pigeon_data)
 
 
 
